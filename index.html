@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics store</title>
+    <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <!-- десктоп -->
+  <header class="desktop-nav">
+    <nav>
+      <div class="container">
+        <div class="menu">
+          <ul class="menu__header">
+            <li class="menu__header-item">
+              <img class="menu__header-icon" src="icons/location.svg" alt="location">
+              <a class="menu__header-link" href="#">Сайлент-Хилл</a>
+            </li>
+            <li class="menu__header-item">
+              <img class="menu__header-icon" src="icons/phone.svg" alt="phone">
+              <a class="menu__header-link" href="tel:+75555553750">+7 555 555-37-50</a>
+            </li>
+          </ul>
+
+          <ul class="menu__header">
+            <li class="menu__header-item">Ежедневно</li>
+            <li class="menu__header-item">9:00 — 21:00</li>
+          </ul>
+
+          <ul class="menu__header">
+            <li class="menu__header-item">
+              <a class="menu__header-link" href="#">Доставка</a>
+            </li>
+            <li class="menu__header-item">
+              <a class="menu__header-link" href="#">Оплата</a>
+            </li>
+            <li class="menu__header-item">
+              <a class="menu__header-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="subheader ">
+      <div class="container">
+        <div class="subheader__logo">
+         <a class="subheader__logo-icon"  href="#">
+           <img src="icons/pacman.svg" alt="pacman">
+         </a>
+        </div>
+
+        <div class="subheader-container">
+          <div class="subheader-container__main">
+            <div class="subheader-container__main-catalog">
+              <button class="btn btn-catalog">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="catalog-menu" id="catalogMenu">
+                <ul class="catalog-level-1">
+                  <li class="catalog-item" data-sub="smartphones">
+                    <img class="catalog-item__icon" src="icons/catalog/iphone.svg" alt="iphone">
+                    <div class="catalog-item__info">Смартфоны и гаджеты</div> 
+                    <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </li>
+                  <li class="catalog-item" data-sub="laptop">
+                    <img class="catalog-item__icon" src="icons/catalog/laptop.svg" alt="laptop">
+                    <div class="catalog-item__info">Ноутбуки и компьютеры</div> 
+                    <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </li>
+                  <li class="catalog-item" data-sub="tv">
+                    <img class="catalog-item__icon" src="icons/catalog/tv.svg" alt="tv">
+                    <div class="catalog-item__info">Телевизоры и цифровое ТВ</div> 
+                    <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </li>
+                  <li class="catalog-item" data-sub="audio">
+                    <img class="catalog-item__icon" src="icons/catalog/audio.svg" alt="audio">
+                    <div class="catalog-item__info">Аудиотехника</div> 
+                    <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </li>
+                  <li class="catalog-item">
+                    <img class="catalog-item__icon" src="icons/catalog/sale.svg" alt="sale">
+                    <a href="#" class="catalog-item__info">Акции</a> 
+                  </li>
+                  <li class="catalog-item">
+                    <img class="catalog-item__icon" src="icons/catalog/new.svg" alt="new">
+                    <a href="#" class="catalog-item__info">Новинки</a> 
+                  </li>
+                </ul>
+
+                <div class="catalog-level-2-wrapper">
+                  <ul class="catalog-level-2" data-id="smartphones">
+                    <li class="catalog-level-2-list">
+                      <ul class="catalog-level-2-list_title"> Смартфоны
+                        <li>
+                          <a href="#">Apple iPhone</a>
+                          <span>123</span>
+                        </li>
+                        <li>
+                          <a href="#">Смартфоны</a>
+                          <span>227</span>
+                        </li>
+                        <li>
+                          <a href="#">iPhone16</a>
+                          <span>120</span>
+                        </li>
+                        <li>
+                          <a href="#">складные</a>
+                          <span>30</span>
+                        </li>
+                      </ul>
+                      <ul class="catalog-level-2-list_title"> Гаджеты
+                        <li>
+                          <a href="#">Смарт-часы</a>
+                          <span>15</span>
+                        </li>
+                        <li>
+                          <a href="#">Смарт-кольца</a>
+                          <span>34</span>
+                        </li>
+                        <li>
+                          <a href="#">Наушники</a>
+                          <span>21</span>
+                        </li>
+                        <li>
+                          <a href="#">Гарнитура</a>
+                          <span>12</span>
+                        </li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                  <ul class="catalog-level-2" data-id="laptop">
+                    <li class="catalog-level-2-list">
+                      <ul class="catalog-level-2-list_title"> Ноутбуки
+                        <li>
+                          <a href="#">Ультрабуки</a>
+                          <span>348</span>
+                        </li>
+                        <li>
+                          <a href="#">Трансформеры</a>
+                          <span>36</span>
+                        </li>
+                        <li>
+                          <a href="#">Игровые</a>
+                          <span>305</span>
+                        </li>
+                      </ul>
+                      <ul class="catalog-level-2-list_title"> Компьютеры
+                        <li>
+                          <a href="#">Персональные компьютеры</a>
+                          <span>646</span>
+                        </li>
+                        <li>
+                          <a href="#">Моноблоки</a>
+                          <span>545</span>
+                        </li>
+                        <li>
+                          <a href="#">Платформы</a>
+                          <span>40</span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="catalog-level-2" data-id="tv">
+                    <li class="catalog-level-2-list">
+                      <ul class="catalog-level-2-list_title"> Телевизоры
+                        <li>
+                          <a href="#">8К</a>
+                          <span>11</span>
+                        </li>
+                        <li>
+                          <a href="#">4K UHD</a>
+                          <span>874</span>
+                        </li>
+                        <li>
+                          <a href="#">Smart TV</a>
+                          <span>1109</span>
+                        </li>
+                        <li>
+                          <a href="#">OLED</a>
+                          <span>77</span>
+                        </li>
+                      </ul>
+                      <ul class="catalog-level-2-list_title"> Цифровое ТВ
+                        <li>
+                          <a href="#">Прием ТВ-сигнала</a>
+                          <span>335</span>
+                        </li>
+                        <li>
+                          <a href="#">Саундбары</a>
+                          <span>108</span>
+                        </li>
+                        <li>
+                          <a href="#">Проекторы</a>
+                          <span>227</span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="catalog-level-2" data-id="audio">
+                    <li class="catalog-level-2-list">
+                      <ul class="catalog-level-2-list_title"> Аудиотехника
+                        <li>
+                          <a href="#">Умные колонки</a>
+                          <span>85</span>
+                        </li>
+                        <li>
+                          <a href="#">Наушники и гарнитуры</a>
+                          <span>4012</span>
+                        </li>
+                        <li>
+                          <a href="#">Портативные колонки и аудиосистемы</a>
+                          <span>1105</span>
+                        </li>
+                         <li>
+                          <a href="#">Колонки</a>
+                          <span>673</span>
+                        </li>
+                        <li>
+                          <a href="#">Умные портативные колонки</a>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <a href="#">Домашняя акустика</a>
+                          <span>296</span>
+                        </li>
+                        <li>
+                          <a href="#">Магнитолы</a>
+                          <span>5</span>
+                        </li>
+                         <li>
+                          <a href="#">Виниловые проигрыватели</a>
+                          <span>35</span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <form class="subheader-container__main-search">
+              <label>
+                <span class="visually-hidden">Поле поиска</span>
+                <input name="search" required placeholder="Поиск товаров..." >
+                <button class="btn btn-search">Найти</button>
+              </label>
+            </form>
+
+            <div class="subheader-container__main-social">
+              <div class="subheader-container__main-social-icon">
+                <a href="#">
+                  <svg width="23.999939" height="20.827988" viewBox="0 0 23.9999 20.828" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path id="Vector" d="M23.53 0.38C23.34 0.2 23.1 0.08 22.85 0.03C22.6 -0.03 22.34 -0.01 22.09 0.07L0.99 7.02C0.42 7.21 0.03 7.73 0 8.33C-0.03 8.94 0.31 9.48 0.86 9.73L6.08 12.01L7.66 19.31C7.72 19.62 7.88 19.89 8.2 19.97C8.53 20.05 8.77 19.87 9.01 19.69L12.88 16.79L17.41 20.49C17.68 20.71 18 20.82 18.33 20.82C18.49 20.82 18.64 20.8 18.79 20.75C19.27 20.58 19.62 20.19 19.74 19.7L23.96 1.78C24.02 1.52 24.01 1.26 23.93 1.02C23.85 0.77 23.71 0.55 23.53 0.38ZM9.35 13.32C9.35 13.33 9.34 13.33 9.34 13.34L8.47 16.39L7.49 11.87L14.19 8.15L9.51 13.05C9.44 13.12 9.38 13.22 9.35 13.32ZM9.63 17.47L10.02 16.08L10.4 14.76L11.76 15.87L9.63 17.47ZM22.58 1.45L18.37 19.38C18.37 19.39 18.36 19.4 18.34 19.41C18.32 19.42 18.31 19.41 18.3 19.4L13.35 15.35L13.35 15.35L11.05 13.47L18.43 5.76C18.55 5.64 18.61 5.48 18.62 5.31C18.63 5.14 18.58 4.98 18.48 4.84C18.37 4.71 18.23 4.62 18.06 4.58C17.9 4.55 17.72 4.57 17.58 4.66L6.66 10.72L1.43 8.44C1.41 8.43 1.4 8.42 1.4 8.4C1.41 8.37 1.41 8.37 1.43 8.36L22.53 1.41C22.54 1.4 22.56 1.4 22.57 1.41C22.59 1.43 22.59 1.44 22.58 1.45Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero"/>
+                </svg>
+                </a>
+              </div>
+              <div class="subheader-container__main-social-icon">
+                <a href="#">
+                  <svg width="22.392334" height="22.499985" viewBox="0 0 22.3923 22.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path id="Vector" d="M19.12 3.26C17.02 1.16 14.22 0 11.24 0C5.09 0 0.09 5 0.09 11.14C0.09 13.11 0.6 15.03 1.58 16.72L0 22.5L5.91 20.94C7.53 21.83 9.37 22.3 11.23 22.3L11.24 22.3C17.38 22.3 22.39 17.3 22.39 11.15C22.39 8.17 21.23 5.37 19.12 3.26ZM11.24 20.42L11.23 20.42C9.57 20.42 7.94 19.97 6.52 19.13L6.18 18.93L2.67 19.85L3.61 16.43L3.39 16.08C2.46 14.6 1.97 12.9 1.97 11.14C1.97 6.03 6.13 1.88 11.24 1.88C13.72 1.88 16.04 2.84 17.79 4.6C19.54 6.35 20.51 8.68 20.5 11.15C20.5 16.26 16.35 20.42 11.24 20.42ZM16.32 13.48C16.04 13.34 14.67 12.67 14.42 12.57C14.16 12.48 13.98 12.43 13.79 12.71C13.61 12.99 13.07 13.62 12.91 13.8C12.75 13.99 12.58 14.01 12.3 13.87C12.03 13.73 11.13 13.44 10.06 12.49C9.24 11.75 8.68 10.84 8.51 10.56C8.35 10.28 8.51 10.15 8.64 9.99C8.94 9.62 9.24 9.23 9.33 9.04C9.43 8.85 9.38 8.69 9.31 8.55C9.24 8.41 8.68 7.04 8.45 6.48C8.23 5.94 8 6.01 7.82 6C7.66 6 7.48 5.99 7.29 5.99C7.1 5.99 6.8 6.06 6.55 6.34C6.29 6.62 5.57 7.3 5.57 8.67C5.57 10.04 6.57 11.36 6.71 11.55C6.85 11.74 8.67 14.55 11.47 15.76C12.13 16.04 12.65 16.21 13.06 16.34C13.72 16.55 14.33 16.52 14.81 16.45C15.35 16.37 16.46 15.78 16.69 15.13C16.92 14.48 16.92 13.92 16.85 13.8C16.79 13.69 16.6 13.62 16.32 13.48Z" fill="currentColor"fill-opacity="1.000000" fill-rule="evenodd"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="subheader-container__main-lang">
+              <img  src="/icons/earth.svg" alt="earth">
+              <a class="lang active">RU</a> | <a class="lang">EN</a>
+            </div>
+            <div class="subheader-container__main-toolbar">
+              <a href="#">
+                <img src="icons/toolbar/heart.svg" alt="heart">
+              </a>
+              <a href="#">
+                <img src="icons/toolbar/hunter.svg" alt="hunter">
+              </a>
+              <a href="#">
+                <img src="icons/toolbar/chest.svg" alt="chest">
+              </a>
+            </div>
+          </div>
+
+          <ul class="subheader-container__common-list">
+            <li class="subheader-container__common-item">
+              <a class="subheader-container__common-link" href="#">
+                <img src="icons/menu/1.svg" alt="1">
+                <div class="subheader-container__common-item_menu">Акции</div>
+              </a>
+            </li>
+
+            <li class="subheader-container__common-item">
+                <a href="#" class="subheader-container__common-link">
+                  <img src="icons/menu/2.svg" alt="2">
+                  <div class="subheader-container__common-item_menu">Горячее предложение</div>
+                </a>
+            </li>
+
+            <li class="subheader-container__common-item">
+              <button type="button" class="btn btn-catalog" >
+                <img src="icons/menu/3.svg" alt="3">
+                <div class="subheader-container__common-item_menu">Подарочные наборы</div>
+              </button>
+                                
+              <div class="catalog-menu" id="giftMenu">
+                <ul class="catalog-level-1">
+                  <li class="catalog-item" data-sub="to">
+                      <img class="catalog-item__icon" src="icons/offer/to.svg" alt="to">
+                      <div class="catalog-item__info">Кому</div> 
+                      <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </li>
+                  <li class="catalog-item" data-sub="reason">
+                      <img class="catalog-item__icon" src="icons/offer/reason.svg" alt="reason">
+                      <div class="catalog-item__info">Повод</div> 
+                      <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </li>
+                  <li class="catalog-item" data-sub="filling">
+                      <img class="catalog-item__icon" src="icons/offer/filling.svg" alt="filling">
+                      <div class="catalog-item__info">Наполнение</div> 
+                      <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </li>
+                </ul>
+                    <div class="catalog-level-2-wrapper">
+                      <ul class="catalog-level-2" data-id="to">
+                        <li class="catalog-level-2-list">
+                          <ul class="catalog-level-2-list_title"> Кому
+                            <li>
+                              <a href="#">Для мужчин</a>
+                              <span>123</span>
+                            </li>
+                            <li>
+                              <a href="#">Для женщин</a>
+                              <span>63</span>
+                            </li>
+                            <li>
+                              <a href="#">Папе</a>
+                              <span>120</span>
+                            </li>
+                            <li>
+                              <a href="#">Сотрудникам</a>
+                              <span>30</span>
+                            </li>
+                            <li>
+                              <a href="#">Мужу</a>
+                              <span>120</span>
+                            </li>
+                            <li>
+                              <a href="#">Корпоративный</a>
+                              <span>100</span>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                </div>    
+            </li>
+                     
+            <li class="subheader-container__common-item">
+              <button type="button" class="btn btn-events" >
+                <img src="icons/menu/4.svg" alt="3">
+                <div class="subheader-container__common-item_menu">События</div>
+              </button>
+              <div class="catalog-menu" id="eventsMenu">
+                <ul class="catalog-level-1">
+                  <li>
+                    <a href="#">ИгроМИР</a>
+                  </li>
+                  <li>
+                    <a href="#">Мероприятия</a>
+                  </li>
+                  <li>
+                    <a href="#">Мастер-классы</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="subheader-container__common-item">
+              <a class="subheader-container__common-link" href="#">
+                <img src="icons/menu/5.svg" alt="5">
+                <div class="subheader-container__common-item_menu">Наши бренды</div>
+              </a>
+            </li>
+
+            <li class="subheader-container__common-item">
+              <a href="#">
+                <div class="subheader-container__common-item_menu">+ Собрать компьютер</div>
+              </a>
+            </li>
+          </ul>  
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- мобильный -->
+  <header class="mobile-header">
+    <nav class="mobile-nav">
+      <div class="container">
+        <div class="menu">
+          <div class="menu__lang">
+            <img src="icons/earth.svg" alt="earth">
+            <a href="#" class="lang active">RU</a> | <a href="#" class="lang">EN</a>
+          </div>
+          <div class="menu__phone">
+            <img src="icons/phone.svg" alt="phone">
+            <a class="menu__header-link" href="tel:+75555553750">+7 555 555-37-50</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="subheader">
+      <div class="container">
+        <div class="subheader-container">
+          <div class="subheader-container__main-catalog">
+                
+            <!-- Первая строка -->
+            <div class="subheader-container__main">
+              <div class="one">
+                <button class="btn btn-catalog subheader-container__main-catalog" id="showDetailsBtn">
+                  <span></span>
+                  <span></span>
+                  <span ></span>
+                </button>
+                <div class="subheader-container__main-toolbar">
+                  <a href="#"><img src="icons/toolbar/hunter.svg" alt="hunter"></a>
+                </div>
+              </div>
+              <div class="subheader__logo">
+                <a class="subheader__logo-icon" href="#">
+                  <img src="icons/pacman.svg" alt="pacman">
+                </a>
+              </div>
+              <div class="subheader-container__main-toolbar">
+                <a href="#">
+                  <img src="/icons/toolbar/heart.svg" alt="heart">
+                </a>
+                <a href="#">
+                  <img src="icons/toolbar/chest.svg" alt="chest">
+                </a>
+              </div>
+            </div>
+
+            <!-- Вторая строка -->
+            <div class="subheader-container__search">
+              <form class="subheader-container__main-search">
+                <label>
+                  <span class="visually-hidden">Поиск товаров</span>
+                  <input name="search" required placeholder="Поиск товаров...">
+                  <button class="btn btn-search">
+                    <img src="/icons/magnifier.svg" alt="magnifier">
+                  </button>
+                </label>
+              </form>
+            </div>
+          </div>
+
+          <!-- Информация из меню -->
+          <div class="mobile-info mobile-info-flex" id="infoSection">
+            <div class="wrapper">
+              <div class="mobile-info__wrapper">
+                <div class="mobile-location">
+                  <img class="menu__header-icon" src="icons/location.svg" alt="location">
+                  <span>Сайлент-Хилл</span>
+
+                </div>
+                <div class="mobile-location">
+                  <img class="menu__header-icon" src="icons/time.svg" alt="time">
+                  <span>Ежедневно 9:00 — 21:00</span>
+                </div>
+              </div>
+
+              <div class="subheader-container__main-social">
+                <div class="subheader-container__main-social-icon">
+                  <a href="#">
+                    <svg width="23.999939" height="20.827988" viewBox="0 0 23.9999 20.828" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <path id="Vector" d="M23.53 0.38C23.34 0.2 23.1 0.08 22.85 0.03C22.6 -0.03 22.34 -0.01 22.09 0.07L0.99 7.02C0.42 7.21 0.03 7.73 0 8.33C-0.03 8.94 0.31 9.48 0.86 9.73L6.08 12.01L7.66 19.31C7.72 19.62 7.88 19.89 8.2 19.97C8.53 20.05 8.77 19.87 9.01 19.69L12.88 16.79L17.41 20.49C17.68 20.71 18 20.82 18.33 20.82C18.49 20.82 18.64 20.8 18.79 20.75C19.27 20.58 19.62 20.19 19.74 19.7L23.96 1.78C24.02 1.52 24.01 1.26 23.93 1.02C23.85 0.77 23.71 0.55 23.53 0.38ZM9.35 13.32C9.35 13.33 9.34 13.33 9.34 13.34L8.47 16.39L7.49 11.87L14.19 8.15L9.51 13.05C9.44 13.12 9.38 13.22 9.35 13.32ZM9.63 17.47L10.02 16.08L10.4 14.76L11.76 15.87L9.63 17.47ZM22.58 1.45L18.37 19.38C18.37 19.39 18.36 19.4 18.34 19.41C18.32 19.42 18.31 19.41 18.3 19.4L13.35 15.35L13.35 15.35L11.05 13.47L18.43 5.76C18.55 5.64 18.61 5.48 18.62 5.31C18.63 5.14 18.58 4.98 18.48 4.84C18.37 4.71 18.23 4.62 18.06 4.58C17.9 4.55 17.72 4.57 17.58 4.66L6.66 10.72L1.43 8.44C1.41 8.43 1.4 8.42 1.4 8.4C1.41 8.37 1.41 8.37 1.43 8.36L22.53 1.41C22.54 1.4 22.56 1.4 22.57 1.41C22.59 1.43 22.59 1.44 22.58 1.45Z" fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="subheader-container__main-social-icon">
+                  <a href="#">
+                    <svg width="22.392334" height="22.499985" viewBox="0 0 22.3923 22.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <path id="Vector" d="M19.12 3.26C17.02 1.16 14.22 0 11.24 0C5.09 0 0.09 5 0.09 11.14C0.09 13.11 0.6 15.03 1.58 16.72L0 22.5L5.91 20.94C7.53 21.83 9.37 22.3 11.23 22.3L11.24 22.3C17.38 22.3 22.39 17.3 22.39 11.15C22.39 8.17 21.23 5.37 19.12 3.26ZM11.24 20.42L11.23 20.42C9.57 20.42 7.94 19.97 6.52 19.13L6.18 18.93L2.67 19.85L3.61 16.43L3.39 16.08C2.46 14.6 1.97 12.9 1.97 11.14C1.97 6.03 6.13 1.88 11.24 1.88C13.72 1.88 16.04 2.84 17.79 4.6C19.54 6.35 20.51 8.68 20.5 11.15C20.5 16.26 16.35 20.42 11.24 20.42ZM16.32 13.48C16.04 13.34 14.67 12.67 14.42 12.57C14.16 12.48 13.98 12.43 13.79 12.71C13.61 12.99 13.07 13.62 12.91 13.8C12.75 13.99 12.58 14.01 12.3 13.87C12.03 13.73 11.13 13.44 10.06 12.49C9.24 11.75 8.68 10.84 8.51 10.56C8.35 10.28 8.51 10.15 8.64 9.99C8.94 9.62 9.24 9.23 9.33 9.04C9.43 8.85 9.38 8.69 9.31 8.55C9.24 8.41 8.68 7.04 8.45 6.48C8.23 5.94 8 6.01 7.82 6C7.66 6 7.48 5.99 7.29 5.99C7.1 5.99 6.8 6.06 6.55 6.34C6.29 6.62 5.57 7.3 5.57 8.67C5.57 10.04 6.57 11.36 6.71 11.55C6.85 11.74 8.67 14.55 11.47 15.76C12.13 16.04 12.65 16.21 13.06 16.34C13.72 16.55 14.33 16.52 14.81 16.45C15.35 16.37 16.46 15.78 16.69 15.13C16.92 14.48 16.92 13.92 16.85 13.8C16.79 13.69 16.6 13.62 16.32 13.48Z" fill="currentColor"fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+
+          <!-- Разделы меню -->
+          <div class="mobile-catalog">
+            <ul class="subheader-container__common-list" style="gap: 0px;">
+              <li class="subheader-container__common-item" >
+                <a class=" subheader-container__common-link" href="#" id="catalogLinkMob" >
+                  <img src="icons/menu/1.svg" alt="1">
+                  <div class="subheader-container__common-item_menu">Каталог</div>
+                </a>
+                <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </li>
+
+              <li class="subheader-container__common-item">
+                <a class="subheader-container__common-link" href="#">
+                  <img src="icons/menu/1.svg" alt="1">
+                  <div class="subheader-container__common-item_menu">Акции</div>
+                </a>
+              </li>
+
+              <li class="subheader-container__common-item">
+                <a href="#" class="subheader-container__common-link">
+                  <img src="icons/menu/2.svg" alt="2">
+                  <div class="subheader-container__common-item_menu">Горячее предложение</div>
+                </a>
+              </li>
+
+              <li class="subheader-container__common-item">
+                <button type="button" class="btn btn-catalog" >
+                  <img src="icons/menu/3.svg" alt="3">
+                  <div class="subheader-container__common-item_menu">Подарочные наборы</div>
+                </button>
+                  <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>    
+              </li>
+                          
+              <li class="subheader-container__common-item">
+                <button type="button" class="btn btn-catalog" >
+                  <img src="icons/menu/4.svg" alt="3">
+                  <div class="subheader-container__common-item_menu">События</div>
+                </button>
+                  <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>    
+              </li>
+
+              <li class="subheader-container__common-item">
+                <a class="subheader-container__common-link" href="#">
+                  <img src="icons/menu/5.svg" alt="5">
+                  <div class="subheader-container__common-item_menu">Наши бренды</div>
+                </a>
+              </li>
+
+              <li class="subheader-container__common-item">
+                <a href="#">
+                  <div class="subheader-container__common-item_menu">+ Собрать компьютер</div>
+                </a>
+              </li>
+            </ul>
+
+            <div class="back-button-container" style="display: none;">
+              <img src="icons/left.svg" alt="left">
+              <button type="button" class="back-button">     
+                Назад
+              </button>
+              <div class="current-category-name"></div>
+            </div>
+
+            <!-- Подкатегории Каталог -->
+            <div class="subheader-container__common-list" id="catalogMenuMob">
+              <ul class="catalog-level-1">
+                <li class="subheader-container__common-item" data-sub="smartphones">
+                  <img class="catalog-item__icon" src="icons/catalog/iphone.svg" alt="iphone">
+                  <div class="catalog-item__info">Смартфоны и гаджеты</div>
+                </li>
+                <li class="subheader-container__common-item" data-sub="laptop">
+                  <img class="catalog-item__icon" src="icons/catalog/laptop.svg" alt="laptop">
+                  <div class="catalog-item__info">Ноутбуки и компьютеры</div>
+                </li>
+                <li class="subheader-container__common-item" data-sub="tv">
+                  <img class="catalog-item__icon" src="icons/catalog/tv.svg" alt="tv">
+                  <div class="catalog-item__info">Телевизоры и цифровое ТВ</div>
+                </li>
+                <li class="subheader-container__common-item" data-sub="audio">
+                  <img class="catalog-item__icon" src="icons/catalog/audio.svg" alt="audio">
+                  <div class="catalog-item__info">Аудиотехника</div>
+                </li>
+                <li class="subheader-container__common-item">
+                  <img class="catalog-item__icon" src="icons/catalog/sale.svg" alt="sale">
+                  <a href="#" class="catalog-item__info">Акции</a>
+                </li>
+                <li class="subheader-container__common-item">
+                  <img class="catalog-item__icon" src="icons/catalog/new.svg" alt="new">
+                  <a href="#" class="catalog-item__info">Новинки</a>
+                </li>
+              </ul>
+          
+                  <div class="catalog-level-2-wrapper">
+                      <ul class="catalog-level-2" data-id="smartphones">
+                        <li class="catalog-level-2-list">
+                          <ul class="catalog-level-2-list_title"> Смартфоны
+                            <li class="subheader-container__common-item">
+                              <a href="#">Apple iPhone</a>
+                                <span>123</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Смартфоны</a>
+                                <span>227</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">iPhone16</a>
+                                <span>120</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">складные</a>
+                                <span>30</span>
+                            </li>
+                          </ul>
+                          <ul class="catalog-level-2-list_title"> Гаджеты
+                            <li class="subheader-container__common-item">
+                              <a href="#">Смарт-часы</a>
+                                <span>15</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Смарт-кольца</a>
+                                <span>34</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Наушники</a>
+                                <span>21</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Гарнитура</a>
+                                <span>12</span>
+                            </li>
+                          </ul>
+                        </li>
+
+                      </ul>
+                      <ul class="catalog-level-2" data-id="laptop">
+                        <li class="catalog-level-2-list">
+                          <ul class="catalog-level-2-list_title"> Ноутбуки
+                            <li class="subheader-container__common-item">
+                              <a href="#">Ультрабуки</a>
+                                <span>348</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Трансформеры</a>
+                                <span>36</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Игровые</a>
+                                <span>305</span>
+                            </li>
+                          </ul>
+                          <ul class="catalog-level-2-list_title"> Компьютеры
+                            <li class="subheader-container__common-item">
+                              <a href="#">Персональные компьютеры</a>
+                                <span>646</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Моноблоки</a>
+                                <span>545</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Платформы</a>
+                                <span>40</span>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="catalog-level-2" data-id="tv">
+                        <li class="catalog-level-2-list">
+                          <ul class="catalog-level-2-list_title"> Телевизоры
+                            <li class="subheader-container__common-item">
+                              <a href="#">8К</a>
+                                <span>11</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">4K UHD</a>
+                                <span>874</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Smart TV</a>
+                                <span>1109</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">OLED</a>
+                                <span>77</span>
+                            </li>
+                          </ul>
+                          <ul class="catalog-level-2-list_title"> Цифровое ТВ
+                            <li class="subheader-container__common-item">
+                              <a href="#">Прием ТВ-сигнала</a>
+                                <span>335</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Саундбары</a>
+                                <span>108</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Проекторы</a>
+                                <span>227</span>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="catalog-level-2" data-id="audio">
+                        <li class="catalog-level-2-list">
+                          <ul class="catalog-level-2-list_title"> Аудиотехника
+                            <li class="subheader-container__common-item">
+                              <a href="#">Умные колонки</a>
+                                <span>85</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Наушники и гарнитуры</a>
+                                <span>4012</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Портативные колонки и аудиосистемы</a>
+                                <span>1105</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Колонки</a>
+                                <span>673</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Умные портативные колонки</a>
+                                <span>2</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Домашняя акустика</a>
+                                <span>296</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Магнитолы</a>
+                                <span>5</span>
+                            </li>
+                            <li class="subheader-container__common-item">
+                              <a href="#">Виниловые проигрыватели</a>
+                                <span>35</span>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </div>
+            </div>
+
+            <!-- Подкатегории подарочные наборы-->
+            <div class="subheader-container__common-list" id="giftMenuMob">
+              <ul class="catalog-level-1">
+                <li class="catalog-item" data-sub="to">
+                  <img class="catalog-item__icon" src="icons/offer/to.svg" alt="to">
+                  <div class="catalog-item__info">Кому</div> 
+                  <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </li>
+                <li class="catalog-item" data-sub="reason">
+                  <img class="catalog-item__icon" src="icons/offer/reason.svg" alt="reason">
+                  <div class="catalog-item__info">Повод</div> 
+                  <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </li>
+                <li class="catalog-item" data-sub="filling">
+                  <img class="catalog-item__icon" src="icons/offer/filling.svg" alt="filling">
+                  <div class="catalog-item__info">Наполнение</div> 
+                  <svg class="catalog-item__arrow" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 13L7 7L1 1" stroke="#343A3F" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </li>
+              </ul>
+              <div class="catalog-level-2-wrapper">
+                <ul class="catalog-level-2" data-id="to">
+                  <li class="catalog-level-2-list">
+                    <ul class="catalog-level-2-list_title"> 
+                      <li class="subheader-container__common-item">
+                        <a href="#">Для мужчин</a>
+                        <span>123</span>
+                      </li>
+                      <li class="subheader-container__common-item">
+                        <a href="#">Для женщин</a>
+                        <span>63</span>
+                      </li>
+                      <li class="subheader-container__common-item">
+                        <a href="#">Папе</a>
+                        <span>120</span>
+                      </li>
+                      <li class="subheader-container__common-item">
+                        <a href="#">Сотрудникам</a>
+                        <span>30</span>
+                      </li>
+                      <li class="subheader-container__common-item">
+                        <a href="#">Мужу</a>
+                        <span>120</span>
+                      </li>
+                      <li class="subheader-container__common-item">
+                        <a href="#">Корпоративный</a>
+                        <span>100</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>  
+              
+            <!-- Подкатегории события-->
+            <div class="subheader-container__common-list" id="eventsMenuMob">
+              <ul class="catalog-level-1">
+                <li class="subheader-container__common-item" data-sub="1">
+                  <a class="catalog-item__info" href="#">ИгроМИР</a>
+                </li>
+                <li class="subheader-container__common-item" data-sub="2">
+                  <a class="catalog-item__info" href="#">Мероприятия</a>
+                </li>
+                <li class="subheader-container__common-item" data-sub="3">
+                  <a class="catalog-item__info" href="#">Мастер-классы</a>
+                </li>
+              </ul>
+                <div class="catalog-level-2-wrapper">
+                    <ul class="catalog-level-2" data-id=""></ul>
+                </div>
+            </div>
+
+            <ul class="mobile-menu__header">
+              <li class="mobile-menu__header-item">
+                <a class="mobile-menu__header-link" href="#">Доставка</a>
+              </li>
+              <li class="mobile-menu__header-item">
+                <a class="mobile-menu__header-link" href="#">Оплата</a>
+              </li>
+              <li class="mobile-menu__header-item">
+                <a class="mobile-menu__header-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="promo">
+    <div class="promo__info">
+      <h1 class="promo__info-header">
+        Отправляйся в приключения с нашими эпическими лут-корзинами и наборами!
+      </h1>
+      <h2 class="promo__info-subheader">
+        Развивай свои навыки, следуя мудрым стратегиям мастеров, и поднимайся на новый уровень мастерства! С нашей поддержкой каждое твое действие станет частью великого искусства, а победы — результатом точного плана и безупречной подготовки!
+      </h2>
+      <button class="promo__info-btn">В каталог</button>
+    </div>
+     <img class="promo__image" src="img/gamepad.png" alt="gamepad">
+  </section> 
+
+  <script src="js/bundle.js"></script>
+</body>
+</html>

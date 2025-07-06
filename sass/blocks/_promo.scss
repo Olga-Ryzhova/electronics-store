@@ -1,0 +1,47 @@
+.promo {
+  position: relative;
+  display: flex;
+  align-items: center;  
+  min-height: 439px;
+  overflow: hidden;
+  background: linear-gradient(135.00deg, rgb(103, 40, 112) 20%,rgb(79, 224, 255) 100%);
+  &__image {
+    position: relative;
+    margin-left: 45px;
+    width: 100%;
+    top: -73px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  &__info {
+      padding: 83px 0;
+      margin-left: 100px;
+    &-header {
+      font-size: 32px;
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+      margin-bottom: 26px;
+      line-height: 36px;
+    }
+    &-subheader {
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 26px;
+      line-height: 24px;
+    }
+    &-btn {
+      width: 149px;
+      height: 52px;
+      padding: 16px 40px;  
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+      color: rgb(103, 40, 112);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
